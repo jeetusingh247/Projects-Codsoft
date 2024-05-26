@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeetu Singh Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <h1>Jeetu Singh</h1>
+            <p>Aspiring Full Stack Web Developer | Constantly Learning and Building to Shape the Future</p>
+            <nav>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item"><a class="nav-link text-white" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#resume">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="py-5">
+        <div class="container text-center">
+            <img src="WhatsApp Image 2023-01-17 at 2.38.56.jpg" alt="John Doe" class="rounded-circle mb-4" width="150" height="150">
+            <h2>About Me</h2>
+            <p>Hello! I'm <b>Jeetu Singh</b>, a passionate Computer Science student with a keen interest in full stack web development. Currently pursuing my degree at <b>Dr. A.P.J. Abdul Kalam Technical University</b>, I am dedicated to mastering both front-end and back-end technologies to create dynamic, user-friendly web applications.
+
+                With a solid foundation in computer science principles and hands-on experience in various programming languages, I am continuously expanding my skill set. I enjoy tackling complex problems, learning new tools, and applying my knowledge to build functional and aesthetically pleasing web solutions.
+                
+                Some of the technologies I work with include HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB. I thrive on the excitement of coding, debugging, and optimizing web applications, and I am always eager to take on new challenges that push my limits.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2>Skills</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <p>HTML & CSS</p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <p>JavaScript</p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <p>React.js</p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <p>Bootstrap</p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <!-- Add more skills as needed -->
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-5">
+        <div class="container text-center">
+            <h2>Projects</h2>
+            <div class="filter-buttons mb-4">
+                <button class="btn btn-primary" data-filter="all">All</button>
+                <button class="btn btn-secondary" data-filter="web">Web Development</button>
+                <button class="btn btn-secondary" data-filter="design">Design</button>
+            </div>
+            <div class="row">
+                <div class="col-md-4 project all mb-4">
+                    <img src="R (2).png" alt="Project 1" class="img-fluid" width="100" height="100">
+                    <h3>Omega Virtual Assistant</h3>
+                    <p>Omega – A virtual assistant which assist you regarding opening and closing of system applications and web applications and also help in using voice commands to open and close a program efficiently and immediately without wasting your time and it also helps in fetching useful data from internet when needed.</p>
+                </div>
+                <div class="col-md-4 project web design mb-4">
+                    <img src="login.png" alt="Project 2" class="img-fluid" width="100" height="100">
+                    <h3>User Authentication</h3>
+                    <p>Login Signup Register form page completely built using react.js, html, css, javascript. A sign-up and login form accessed via tab buttons. A fully unique and modern design for your website’s login form.</p>
+                </div>
+                <div class="col-md-4 project web design mb-4">
+                    <img src="get-stock-price-data.webp" alt="Project 2" class="img-fluid" width="100" height="100">
+                    <h3>Interface Stock Price</h3>
+                    <p>Over the period of September 2023 to November 2023 i have completed practical task in Interface with stock price data feed Using JPMorgan Chase & Co. frameworks and tools which display data visually for traders. Open source contribution.</p>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+        </div>
+    </section>
+
+    <section id="resume" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2>Resume</h2>
+            <a class="btn btn-primary" href="https://docs.google.com/document/d/1MTlbsakem55nQeAEDwcBZ4tFCTiWes7r/edit?usp=drive_link&ouid=103935463125088952410&rtpof=true&sd=true" download>Download My Resume</a>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5">
+        <div class="container text-center">
+            <h2>Contact</h2>
+            <form id="contact-form" class="text-left">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+            <p id="form-message" class="mt-3"></p>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2024 Jeetu Singh. All rights reserved.</p>
+            <p>Follow me on <a href="https://www.linkedin.com/in/jeetu-singh-b6980a258/" class="text-white">LinkedIn</a> | <a href="https://github.com/jeetusingh247" class="text-white">GitHub</a></p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
